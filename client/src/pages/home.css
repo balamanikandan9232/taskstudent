@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,300&display=swap");
+
+.head {
+  text-align: start;
+  margin-left: 10%;
+  height: 10vh;
+  font-size: 15px;
+}
+.navbar {
+  margin-left: 10%;
+  text-align: start;
+  padding-bottom: 5%;
+  display: flex;
+  position: relative;
+}
+.navbar input {
+  width: 25%;
+  height: 2vh;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+.navbar span {
+  position: absolute;
+  font-size: 21px;
+  color: gray;
+  padding-left: 25%;
+  margin-top: 15px;
+  opacity: 0.5;
+}
+.button {
+  padding-left: 49%;
+}
+.btn-add {
+  display: inline-block;
+  width: 180px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.styled-table {
+  border-collapse: collapse;
+  border: 1px solid lightgray;
+  margin: auto;
+  height: 80vh;
+  width: 80%;
+  padding: 50px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-family: "poppins", sans-serif;
+}
+.styled-table tr {
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+.styled-table tbody,
+.styled-table td {
+  color: gray;
+}
+
+.styled-table thead {
+  font-weight: 500;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid lightgray;
+}
+.styled-table th,
+td {
+  padding: 20px 10px 20px 5px;
+  text-align: center;
+}
+.styled-table th {
+  width: 10%;
+  height: 10vh;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn {
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  background: none;
+}
+.btn-edit {
+  color:#4166f5;
+
+}
+.btn-delete {
+  color: #fe3939;
+}
